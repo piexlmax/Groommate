@@ -29,7 +29,7 @@ export default {
       UserIcon: true,
       toast: false,
       Title_Data: '',
-      LoginName: '溯翎',
+      LoginName: '奇淼',
       PhoneInputShow: true,
       Welcome: '',
       Welcome_Bottom: '',

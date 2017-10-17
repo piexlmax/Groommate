@@ -18,7 +18,7 @@
         <div class="topic-bottom">
             <mu-icon-button icon="favorite"/>
             <mu-icon-button @click="Topic_Input" icon="chat"/>
-            <mu-text-field v-show="topic_input" v-model="topic_type" style="margin-top: -.8em" hintText="请输入你的评论"/>
+            <mu-text-field  v-show="topic_input" v-model="topic_type" style="margin-top: -.8em" hintText="请输入你的评论"/>
             <mu-flat-button v-show="topic_input" label="发送" style="margin-top: -0.6em" icon="send" color="#fff"/>
         </div>
     </div>
@@ -81,7 +81,7 @@ export default {
         padding: 0em 0 1em 0;
     }
     .topic-bottom{
-        background-color:#474a4f;
+        background-color:#2196f3;
         height: 3.5em;
         display: flex;
         position: fixed;
